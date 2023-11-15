@@ -1,0 +1,62 @@
+<html>
+
+<head>
+  <title>URL Shortener</title>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    form input {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+    }
+
+    .cardBody {
+      box-shadow: 0px 0px 40px #cecece;
+      width: 350px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row mt-5 justify-content-md-center">
+      <div class="col-md-4 mt-5 text-center">
+        <div class="card p-3 mt-5 cardBody">
+          <div class="card-header " style="border:none;">
+            <h4 class="card-title">OTP Confirmation</h4>
+          </div>
+          <div class="card-body">
+            <form action="" class="mt-5">
+              <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(1)' maxlength=1>
+              <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(2)' maxlength=1>
+              <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(3)' maxlength=1>
+              <input class="otp" type="text" oninput='digitValidate(this)' onkeyup='tabChange(4)' maxlength=1>
+            </form>
+          </div>
+          <hr class="mt-4">
+          <button class='btn btn-primary btn-block mt-4 mb-4 customBtn'>Verify</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    let tabChange = function (val) {
+      let element = document.querySelectorAll('input');
+      if (element[val - 1].value != '') {
+        element[val].focus()
+      } else if (element[val - 1].value == '') {
+        element[val - 2].focus()
+      }
+    }
+
+    let digitValidate = function (ele) {
+      console.log(ele.value);
+      ele.value = ele.value.replace(/[^0-9]/g, '');
+    }
+  </script>
+</body>
+
+</html>
