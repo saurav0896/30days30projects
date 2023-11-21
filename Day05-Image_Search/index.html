@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Image Search</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #121212;
+            color: #fff;
+        }
+
+        #resultBox {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            background: #222
+        }
+
+        #searchBox {
+            background-color: #222;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row m-5">
+            <h1 class="text-center title">Image Search</h1>
+            <div class="row p-4">
+                <div class="col-sm-10">
+                    <input type="text" id="searchBox" placeholder="Enter the search text . . ." class="form-control"
+                        aria-describedby="searchHelpBlock">
+                    <div id="searchHelpBlock" class="subtitle">
+                        Search only - nature, city, technology, food, still_life, abstract, wildlife.
+                    </div>
+                </div>
+                <div class="col-sm-2"><button type="button" id="buttonClick" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="card m-2" id="resultBox">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
