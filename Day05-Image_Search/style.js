@@ -25,4 +25,5 @@ searchClick.addEventListener("click", function () {
         .catch((error) => {
             console.error("Error: ", error);
         });
+    searchItem.value = "";
 });
