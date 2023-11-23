@@ -1,3 +1,3 @@
 
 # Day 2 - Weather App
-![image](./ProjectsImages/Weather_App.png)
+![image](../ProjectsImages/Weather_App.png)
