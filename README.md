@@ -10,7 +10,7 @@ Initial going to start with simple project , later will improve the code complex
 ![image](ProjectsImages/Weather_App.png)
 
 ## Day 3 - New Year Countdown
-![image](ProjectsImages/New_year_Countdown.png)
+![image](ProjectsImages/New_Year_Countdown.png)
 
 ## Day 4 - GitHub Profile Search
 ![image](ProjectsImages/GitHub_Profile_Search.png)
