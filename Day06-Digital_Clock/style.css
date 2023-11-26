@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&display=swap');
+
+body{
+  background:#222;
+  color:#fff;
+}
+
+.box {
+  display:flex;
+  width:100vw;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+}
+
+.card{
+  background:#121212;
+  weight:max-content;
+  height:max-content;
+  padding:2rem;
+  border: 2rem solid black;
+}
+.title{
+  font-size:60px;
+  font-family: 'Orbitron', sans-serif;
+  text-align:center;
+  margin-bottom:40px;
+}
+#display {
+  font-size:60px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#day {
+  font-size:30px;
+  font-family: 'Orbitron', sans-serif;
+  text-align:center;
+}
