@@ -17,3 +17,6 @@ Initial going to start with simple project , later will improve the code complex
 
 ## Day 5 - Image Search
 ![image](ProjectsImages/Image_Search.png)
+
+## Day 6 - Digital Clock
+![image](ProjectsImages/Digital_Clock.png)
