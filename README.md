@@ -22,4 +22,4 @@ Initial going to start with simple project , later will improve the code complex
 ![image](ProjectsImages/Digital_Clock.png)
 
 ## Day 7 - QR_Code_Generator
-![image](../ProjectsImages/QR_Code_Generator.png)
+![image](/ProjectsImages/QR_Code_Generator.png)
