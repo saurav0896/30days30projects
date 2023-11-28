@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Password Generator</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="box">
+            <div>
+                <h1 class="text-center mb-3">Password Generator</h1>
+                <div class="card">
+                    <div class="mb-3">
+                        <label for="numberInput" class="form-label">Password Length</label>
+                        <input type="number" class="form-control passLength" id="numberInput"
+                            placeholder="Enter number here ...">
+                        <button class="btn btn-primary my-4 btn-lg" id="generateBtn" type="button">Generate</button>
+                    </div>
+                    <div class="mb-3">
+                        <label for="passwordGenerated" class="form-label">Generated Password</label>
+                        <textarea class="form-control generated" id="passwordGenerated" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
