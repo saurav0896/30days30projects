@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Dictionary</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="box">
+            <div>
+                <h1 class="text-center mb-3">Dictionary</h1>
+                <div class="card">
+                    <div class="mb-3">
+                        <label for="textInput" class="form-label">Enter the word</label>
+                        <input type="text" class="form-control word" id="textInput" placeholder="Enter text here ...">
+                        <button class="btn btn-primary my-4 btn-lg" id="generateBtn" type="button">Search</button>
+                    </div>
+                    <div class="mb-3">
+                        <label for="textGenerated" class="form-label">Definition of the word</label>
+                        <h2 id="title"></h2>
+                        <p id="textGenerated" class="generated"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
