@@ -26,3 +26,6 @@ Initial going to start with simple project , later will improve the code complex
 
 ## Day 8 - Password_Generator
 ![image](/ProjectsImages/Password_Generator.png)
+
+## Day 9 - Dictionary
+![image](/ProjectsImages/Dictionary.png)
