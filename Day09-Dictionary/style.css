@@ -41,3 +41,9 @@ input[type=text]:focus {
   border:none;
   font-size:14px;
 }
+
+.error{
+  text-align:center;
+  font-size:18px; 
+  color:red;
+}
