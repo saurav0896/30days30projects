@@ -29,3 +29,6 @@ Initial going to start with simple project , later will improve the code complex
 
 ## Day 9 - Dictionary
 ![image](/ProjectsImages/Dictionary.png)
+
+## Day 10 - Social Media Icon Animation
+![image](/ProjectsImages/Social_Media_Icon.png)
