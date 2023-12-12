@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List App</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./syle.css">
+</head>
+<body>
+<div class="container">
+  <h2 class="text-center mb-4">To-Do List</h2>
+  <div class="input-group mb-3">
+    <input type="text" id="taskInput" class="form-control" placeholder="Enter a task">
+    <div class="input-group-append">
+      <button class="btn btn-outline-light" type="button" onclick="addTask()">
+        <i class="bi bi-plus-circle"></i>
+      </button>
+    </div>
+  </div>
+  <table class="table table-dark table-hover">
+    <tbody id="taskList"></tbody>
+  </table>
+</div>
+
+<script type="text/javascript" src="./style.js"></script>
+</body>
+</html>
