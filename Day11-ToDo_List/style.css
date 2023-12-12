@@ -1,0 +1,63 @@
+:root {
+    --dark-bg: #121212;
+    --dark-secondary-bg: #1d1d1d;
+    --dark-text: #e6e6e6;
+    --dark-accent: #bb86fc;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px;
+    background-color: var(--dark-secondary-bg);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+    color: var(--dark-text);
+}
+
+.form-control,
+.btn {
+    border-radius: 0.5rem;
+}
+
+.btn {
+    margin-left: 0.5rem;
+}
+
+.bi {
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background-color: #121212;
+    color: #fff;
+}
+
+input[type="text"]:focus {
+    background-color: #121212;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .input-group {
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
