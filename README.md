@@ -34,4 +34,4 @@ Initial going to start with simple project , later will improve the code complex
 ![image](/ProjectsImages/Social_Media_Icon.png)
 
 ## Day 11 - To Do List App
-![image](../ProjectsImages/ToDo_List.png)
+![image](/ProjectsImages/ToDo_List.png)
