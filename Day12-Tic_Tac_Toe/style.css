@@ -1,0 +1,61 @@
+:root {
+    --dark-bg: #121212;
+    --dark-secondary-bg: #1d1d1d;
+    --dark-text: #e6e6e6;
+    --dark-accent: #bb86fc;
+    --x-color: #4caf50;
+    /* Green */
+    --o-color: #f44336;
+    /* Red */
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: var(--dark-secondary-bg);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.game-cell {
+    width: 100px;
+    height: 100px;
+    background-color: var(--dark-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.game-cell.x {
+    color: var(--x-color);
+}
+
+.game-cell.o {
+    color: var(--o-color);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
